@@ -1,0 +1,318 @@
+/*
+Theme Name: Zen Read
+Description: Used to style the TinyMCE editor.
+*/
+
+/* ================================================================================ VARS */
+
+@import url('style-properties.css');
+
+::selection {
+    background: var(--highlight-color);
+    color: #FFFFFF;
+}
+::-moz-selection {
+    background: var(--highlight-color);
+    color: #FFFFFF;
+}
+
+html .mceContentBody {
+	max-width: 700px;
+	width: 79.2%;
+	box-sizing: border-box;
+	margin: 60px auto !important;
+}
+body{
+	font-family: var(--sans-serif);
+    font-size: 14px;
+    color: var(--text-color);
+    background: var(--content-bg-color);
+}
+img,
+p,
+table,
+dl,
+ol,
+ul,
+.mceContentBody blockquote{
+    max-width: 700px;
+    height: auto;
+}
+a{
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    color: var(--title-color);
+    margin-bottom: 15px;
+    line-height: 125% !important;
+    white-space: normal;
+    /*overflow-wrap: break-word;*/
+    height: auto;
+}
+h1{ font-size: 32px; }
+h2{ font-size: 30px; }
+h3{ font-size: 26px; }
+h4{ font-size: 22px; font-weight: 700; }
+h5{ font-size: 22px; font-weight: 500; }
+h6{ font-size: 22px; font-weight: 500; font-style: italic; }
+
+hr,
+p,
+code,
+.wp-video,
+.mceContentBody > ul,
+.mceContentBody > dl:not(.gallery-item),
+.mceContentBody > ol{
+    margin-bottom: 30px;
+}
+.wp-video{
+    width: 100% !important;
+}
+p{
+    font-family: var(--serif);
+    font-size: 19px;
+    color: var(--text-color);
+    line-height: 155% !important;
+}
+code{
+    font-family: var(--monospace);
+    font-size: 19px;
+    color: var(--text-color);
+    line-height: 155%;
+    overflow: scroll;
+}
+.mceContentBody > p code,
+.mceContentBody > code{
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+    background: var(--bg-color);
+    width: 100%;
+    padding: 30px;
+    border: solid 1px var(--border-color);
+}
+.mceContentBody > ul{
+    list-style: disc outside;
+    padding-left: 20px;
+}
+.mceContentBody > ol{
+    list-style: inside decimal;
+}
+.mceContentBody > dl:not(.gallery-item){
+    border-top: solid 1px var(--border-color);
+    padding-top: 10px;
+}
+.mceContentBody > ul li,
+.mceContentBody > ol li,
+.mceContentBody > dl:not(.gallery-item) dt,
+.mceContentBody > dl:not(.gallery-item) dd{
+    margin-bottom: 15px;
+    font-family: var(--sans-serif);
+    font-size: 19px;
+    line-height: 155%;
+}
+.mceContentBody > ul li{
+    margin-bottom: 15px;
+}
+ol li{
+    border-bottom: solid 1px var(--border-color);
+    padding-bottom: 15px;
+}
+.mceContentBody > ol li:last-child{
+    border: none;
+    padding: 0;
+}
+.mceContentBody > dl:not(.gallery-item) dt,
+.mceContentBody > dl:not(.gallery-item) dd{
+    padding-bottom: 15px;
+    border-bottom: solid 1px var(--border-color);
+}
+dfn,
+abbr,
+acronym{
+    border-bottom: dotted 1px var(--text-color);
+}
+b,
+strong{
+    font-weight: bold;
+    font-weight: 700;
+}
+q,
+cite{
+    font-family: var(--serif);
+    font-style: italic;
+}
+del{
+    text-decoration: line-through;
+}
+u{
+    text-decoration: none;
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 1px;
+}
+mark{
+    background-color: #FFF4C7;
+}
+.mceContentBody hr{
+    display: block;
+    clear: both;
+    width: 100%;
+    padding: 0;
+    border: none;
+    border-top: solid 1px var(--border-gray);
+}
+.mceContentBody blockquote{
+    font-family: var(--serif);
+    color: var(--title-color);
+    padding-left: 55px;
+    padding-top: 2px;
+    font-size: 22px;
+    background: url(img/quote.svg) top left no-repeat;
+    background-size: 32px 42px;
+}
+/*IMAGE FORMATTING*/
+img,
+img.size-full,
+img.size-thumbnail,
+img.size-medium,
+img.size-large{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+img.size-full.alignleft,
+img.size-thumbnail.alignleft,
+img.size-medium.alignleft{
+    float: left;
+    max-width: 45%;
+    margin: 0 20px 10px 0;
+}
+img.size-full.alignright,
+img.size-thumbnail.alignright,
+img.size-medium.alignright{
+    float: right;
+    max-width: 45%;
+    margin: 0 0 10px 20px;
+}
+img.size-full.aligncenter,
+img.size-thumbnail.aligncenter,
+img.size-medium.aligncenter{
+    display: block;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+a img{
+    transition: all 0.4s;
+}
+.wp-caption{
+    margin: 0 0 30px 0;
+    max-width: 100%;
+    padding-bottom: 5px;
+    border-bottom: dotted 1px var(--border-color);
+}
+.wp-caption img{
+    margin-bottom: 10px;
+}
+p img.alignnone,
+p img.aligcenter{
+    margin-bottom: 0px;
+}
+.wp-caption .wp-caption-dd{
+	font-size: 12px;
+	text-align: center;
+	margin: 10px 0;
+	color: var(--meta-color);
+}
+.wp-caption p{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.wp-caption-text{
+    margin: 0;
+    color: var(--meta-color);
+    font-family: var(--sans-serif);
+    font-size: 14px;
+    text-align: center;
+}
+/*TABLE FORMATTING*/
+table{
+    width: 100%;
+    margin: 0 0 30px 0;
+    background-color: var(--content-bg-color);
+}
+table,
+table tr,
+table td,
+table th{
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent !important;
+}
+table tr{
+    border-bottom: solid 1px var(--border-color) !important;
+}
+table td,
+table th{
+    padding: 10px 15px 12px;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: left;
+    vertical-align: top;
+}
+table th{
+    padding-top: 0;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+/*IFRAME FORMATTING*/
+iframe{
+    width: 100vw;
+    height: 56.25vw;
+    margin-bottom: 30px;
+    margin: 0;
+    max-width: 100%;
+    min-height: 222px;
+    max-height: 415px;
+}
+p iframe{
+    margin-bottom: none;
+}
+.mceContentBody .credits,
+.mceContentBody .credits a{
+    color: var(--meta-color);
+    font-size: 12px;
+    font-family: var(--sans-serif);
+}
+.mceContentBody .credits a:hover{
+    border-bottom: solid 1px var(--meta-color);
+}
+.mceContentBody a.button{
+    background: var(--highlight-color);
+    color: #FFF;
+    border-radius: 4px !important;
+    border: none;
+    display: inline-block;
+    padding: 6px 15px;
+    transition: all 0.2s;
+}
+.mceContentBody img.border{
+    border: solid 1px rgba(0, 0, 0, 0.1) !important;
+    padding: 5px !important;
+    border-radius: 2px !important;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 450px) and (orientation: portrait){
+    .mceContentBody a.button{
+        background-color: transparent;
+        color: var(--highlight-color);
+        padding: 0;
+        font-weight: bold;
+    }
+}

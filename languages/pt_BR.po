@@ -1,0 +1,492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zen Read 0.1\n"
+"POT-Creation-Date: 2018-01-31 21:53-0200\n"
+"PO-Revision-Date: 2018-01-31 21:53-0200\n"
+"Last-Translator: \n"
+"Language-Team: Vitor Hugo Japa\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:12
+msgid "Published in"
+msgstr "Publica‌‌ções de"
+
+#: author-social.php:6
+#, php-format
+msgid "%s's profile on Facebook"
+msgstr "Perfil no Facebook de %s"
+
+#: author-social.php:17
+#, php-format
+msgid "%s's profile on Twitter"
+msgstr "Perfil no Twitter de %s"
+
+#: author-social.php:28
+#, php-format
+msgid "%s's profile on Instagram"
+msgstr "Perfil no Instagram de %s"
+
+#: author-social.php:39
+#, php-format
+msgid "%s's profile on Linkedin"
+msgstr "Perfil de Linkedin de %s"
+
+#: author-social.php:50
+#, php-format
+msgid "%s's channel on YouTube"
+msgstr "Canal de YouTube de %s"
+
+#: author-social.php:61
+#, php-format
+msgid "%s's profile on Google+"
+msgstr "Perfil no Google+ de %s"
+
+#: author-social.php:72
+#, php-format
+msgid "%s's WhatsApp number"
+msgstr "Número de WhatsApp de %s"
+
+#: author-social.php:83
+#, php-format
+msgid "%s's iMessage contact"
+msgstr "Contato no iMessage de %s"
+
+#: author-social.php:94
+#, php-format
+msgid "%s's profile on Soundcloud"
+msgstr "Perfil no Soundcloud de %s"
+
+#: author-social.php:105
+#, php-format
+msgid "%s's profile on Dribbble"
+msgstr "Perfil no Dribbble de %s"
+
+#: author-social.php:116
+#, php-format
+msgid "%s's profile on Behance"
+msgstr "Perfil no Behance de %s"
+
+#: author-social.php:127
+#, php-format
+msgid "%s's profile on DeviantArt"
+msgstr "Perfil no DeviantArt de %s"
+
+#: author-social.php:138
+#, php-format
+msgid "%s's profile on Pinterest"
+msgstr "Perfil no Pinterest de %s"
+
+#: author-social.php:149
+#, php-format
+msgid "%s's profile on GitHub"
+msgstr "Perfil no GitHub de %s"
+
+#: author.php:16
+msgid "Published by"
+msgstr "Publicações de"
+
+#: comment-form.php:8
+msgid "Name"
+msgstr "Nome"
+
+#: comment-form.php:10
+msgid "name"
+msgstr "nome"
+
+#: comment-form.php:16
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comment-form.php:16
+msgid "It will not be visible to the public"
+msgstr "Não ficará visível para o público"
+
+#: comment-form.php:18
+msgid "e-mail"
+msgstr "e-mail"
+
+#: comment-form.php:27
+msgid "Send"
+msgstr "Enviar"
+
+#: comment-form.php:29 comments.php:26
+msgid "Reply"
+msgstr "Responder"
+
+#: comment-form.php:32
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: comments.php:9
+msgid "Write a comment"
+msgstr "Escrever comentário"
+
+#: comments.php:9
+#, php-format
+msgid "about %s"
+msgstr "sobre %s"
+
+#: comments.php:20 content-quote.php:37 content-single-quote.php:39
+#: content-single-video.php:69 content-single.php:61 content.php:51
+#, php-format
+msgid "%s comments"
+msgstr "%s comentários"
+
+#: comments.php:20
+#, php-format
+msgid "about %s below"
+msgstr "abaixo sobre %s"
+
+#: content-empty-result.php:3
+msgid "Nothing found"
+msgstr "Nada foi encontrado"
+
+#: content-empty-result.php:9
+#, php-format
+msgid "There is no results about %s. What about the suggestions below?"
+msgstr ""
+"A busca por %s resultou em nenhum conteúdo encontrado, mas que tal as "
+"sugestões abaixo?"
+
+#: content-empty-result.php:11
+msgid "What about the suggestions below?"
+msgstr "Mas que tal as sugestões abaixo?"
+
+#: content-meta-fields.php:10
+msgid "Visit"
+msgstr "Visitar"
+
+#: content-meta-fields.php:21
+msgid "Download"
+msgstr "Baixar"
+
+#: content-meta-fields.php:32
+msgid "Buy"
+msgstr "Comprar"
+
+#: content-page.php:31 content-single.php:31
+msgid "More posts from $s"
+msgstr "Mais publicações de %s"
+
+#: content-page.php:34 content-single.php:34
+#, php-format
+msgid "by %s"
+msgstr "por %s"
+
+#: content-page.php:51 content-single-quote.php:67 content-single-video.php:87
+#: content-single.php:79
+msgid "Continue reading"
+msgstr "Continue lendo"
+
+#: content-page.php:57 functions.php:358
+msgid "Next page"
+msgstr "Próxima página"
+
+#: content-page.php:58 functions.php:352
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: content-quote.php:50 content-single-quote.php:52
+msgid "Tweet this"
+msgstr "Tweetar"
+
+#: content-single-quote.php:73 content-single-video.php:93
+#: content-single.php:85
+msgid "Next chapter"
+msgstr "Próximo capítulo"
+
+#: content-single-quote.php:74 content-single-video.php:94
+#: content-single.php:86
+msgid "Previous chapter"
+msgstr "Capítulo anterior"
+
+#: content-single-quote.php:87 content-single-video.php:107
+#: content-single.php:99
+#, php-format
+msgid "Posts in %s"
+msgstr "Todas as publicações em %s"
+
+#: content-single-quote.php:90 content-single-video.php:110
+#: content-single.php:102
+msgid "More tags and categories in this post"
+msgstr "Mais categorias e tags desta publicação"
+
+#: content-single-quote.php:98 content-single-video.php:118
+#: content-single.php:110
+msgid "Posts in "
+msgstr "Todas as publicações em "
+
+#: content-single-quote.php:109 content-single-video.php:129
+#: content-single.php:121
+#, php-format
+msgid "Published in %s at %s"
+msgstr "Publicado em %s às %s"
+
+#: content-single-video.php:36
+msgid ""
+"To place a video here, add a custom field called \"video\" with an YouTube "
+"or Vimeo URL."
+msgstr ""
+"Para colocar um vídeo aqui, adicione um campo personalizado chamado “video” "
+"com a URL de um vídeo do YouTube ou Vimeo."
+
+#: content-single-video.php:38
+msgid "See the full list of supported video services"
+msgstr "Veja a lista completa de serviços de vídeo permitidos"
+
+#: content-single-video.php:61 content-single.php:49 content.php:39
+#, php-format
+msgid "Watch in %s min"
+msgstr "Assista em %s min"
+
+#: content-single.php:53 content.php:43
+#, php-format
+msgid "Read %s in %s min"
+msgstr "Leia %s em %s min"
+
+#: footer-jetpack-infinite-scroll.php:8
+msgid "WordPress Theme Zen Read developed by @vitorhugojapa"
+msgstr "Tema Zen Read desenvolvido por @vitorhugojapa"
+
+#: functions.php:50
+msgid "To view this post, enter the password below."
+msgstr "Para visualizar esta publicação, digite a senha abaixo."
+
+#: functions.php:51
+msgid "Password"
+msgstr "Senha"
+
+#: functions.php:51
+msgid "Submit"
+msgstr "Enviar"
+
+#: functions.php:61
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:83
+msgid "Categories"
+msgstr "Categorias"
+
+#: functions.php:125
+msgid "said:"
+msgstr "disse:"
+
+#: functions.php:132
+msgid "Waiting for approval"
+msgstr "Aguardando aprovação"
+
+#: functions.php:148 functions.php:186
+msgid " ago"
+msgstr " atrás"
+
+#: functions.php:151 functions.php:188
+#, php-format
+msgid "in %s"
+msgstr "em %s"
+
+#: functions.php:156
+msgid "Edit"
+msgstr "Editar"
+
+#: functions.php:179
+msgid "Published "
+msgstr "Publicações‌ de "
+
+#: functions.php:374
+msgid "Previous comments"
+msgstr "Comentários anteriores"
+
+#: functions.php:380
+msgid "Next comments"
+msgstr "Próximos comenários"
+
+#: functions.php:444
+msgid "Read more"
+msgstr "Veja também"
+
+#: functions.php:524
+msgid "Reading"
+msgstr "Leitura"
+
+#: functions.php:538
+msgid "Disclaimer and footer notes"
+msgstr "Declarações de propriedade no rodapé"
+
+#: functions.php:554
+msgid "Mobile post listing:"
+msgstr "Lista de posts no celular:"
+
+#: functions.php:558
+msgid "Column"
+msgstr "Coluna"
+
+#: functions.php:559
+msgid "Row"
+msgstr "Linha"
+
+#: functions.php:572
+msgid "Social menu #1"
+msgstr "Menu social #1"
+
+#: functions.php:606
+msgid "Social menu #2"
+msgstr "Menu social #2"
+
+#: functions.php:640
+msgid "Social menu #3"
+msgstr "Menu social #3"
+
+#: functions.php:674
+msgid "Social menu #4"
+msgstr "Menu social #4"
+
+#: functions.php:708
+msgid "Social menu #5"
+msgstr "Menu social #5"
+
+#: functions.php:742
+msgid "Social menu #6"
+msgstr "Menu social #6"
+
+#: functions.php:779
+msgid "Facebook page URL"
+msgstr "Endereço URL completo da página"
+
+#: functions.php:809
+msgid "e.g: +5510987654321"
+msgstr "ex: +5510987654321"
+
+#: functions.php:884
+msgid "Username only without the @"
+msgstr "Digite somente o usuário sem @"
+
+#: menu.php:4 menu.php:11
+msgid "Go to Home"
+msgstr "Ir para a página inicial"
+
+#: menu.php:27
+msgid "Add menu"
+msgstr "Adicionar menu"
+
+#: menu.php:51 menu.php:149
+msgid "Go to YouTube Channel"
+msgstr "Ir para o canal de YouTube"
+
+#: menu.php:56 menu.php:173
+msgid "Go to Linkedin Profile"
+msgstr "Ir para o perfil no Linkedin"
+
+#: menu.php:61 menu.php:181
+msgid "Contact through WhatsApp"
+msgstr "Entrar em contato via WhatsApp"
+
+#: menu.php:66 menu.php:189
+msgid "Go to Facebook Page"
+msgstr "Ir para a Página no Facebook"
+
+#: menu.php:71 menu.php:197
+msgid "Go to Instagram Profile"
+msgstr "Ir para o perfil no Instagram"
+
+#: menu.php:77 menu.php:205
+msgid "Go to Twitter Profile"
+msgstr "Ir para o perfil no Twitter"
+
+#: menu.php:82 menu.php:278
+msgid "Go to Google+ Profile"
+msgstr "Ir para o perfil no Google+"
+
+#: menu.php:87 menu.php:214
+msgid "Go to Dribbble Portfolio"
+msgstr "Ver portfólio no Dribbble"
+
+#: menu.php:92 menu.php:222
+msgid "Go to Behance Portfolio"
+msgstr "Ver portfólio no Behance"
+
+#: menu.php:97 menu.php:230
+msgid "Go to Projects on GitHub"
+msgstr "Ver projetos no GitHub"
+
+#: menu.php:102 menu.php:107 menu.php:238 menu.php:246
+msgid "Go to Apps in the App Store"
+msgstr "Ir para apps na App Store"
+
+#: menu.php:112 menu.php:157
+msgid "Go to Podcast on iTunes"
+msgstr "Ir para o Podcast no iTunes"
+
+#: menu.php:117 menu.php:165
+msgid "Go to Twitch Channel"
+msgstr "Ir para o canal no Twitch"
+
+#: menu.php:122 menu.php:254
+msgid "Go to Medium Articles"
+msgstr "Ver artigos no Medium"
+
+#: menu.php:127 menu.php:262
+msgid "Go to Pinterest Profile"
+msgstr "Ir para o perfil no Pinterest"
+
+#: menu.php:132 menu.php:270
+msgid "Go to Soundcloud"
+msgstr "Ir para o perfil no Soundcloud"
+
+#: menu.php:286 menu.php:288
+msgid "more"
+msgstr "mais"
+
+#: menu.php:292 menu.php:294 menu.php:314 menu.php:316
+msgid "close"
+msgstr "fechar"
+
+#: menu.php:301
+msgid "Add social profiles menu"
+msgstr "Adicionar o menu de perfis me redes sociais"
+
+#: menu.php:303
+msgid "Profiles"
+msgstr "Perfis"
+
+#: menu.php:309 menu.php:311 searchform.php:3 searchform.php:5
+msgid "search"
+msgstr "busca"
+
+#: pagination-image.php:4
+msgid "Previous image"
+msgstr "Imagem anterior"
+
+#: pagination-image.php:6
+msgid "Next image"
+msgstr "Próxima imagem"
+
+#: search.php:10
+msgid "Searching for"
+msgstr "Buscando"
+
+#: searchform.php:4
+msgid "type here"
+msgstr "digite aqui"
+
+#: tag.php:10
+msgid "Posts tagged with"
+msgstr "Publicações com a tag"
+
+#~ msgid "<span class=\"screen-reader-text\">Password protected:</span> %s"
+#~ msgstr "<span class=“screen-reader-text”>Protegido por senha:</span> %s"
+
+#~ msgid "nome"
+#~ msgstr "Nome"
+
+#~ msgid "%s posts"
+#~ msgstr "Publicações de %s"

@@ -1,0 +1,72 @@
+:root{
+    --link-color: #000000;
+    --highlight-color: #0076FF;
+    --text-color: #000000;
+    --title-color: #000000;
+    --meta-color: #8E8E8E;
+    --border-color: #E3E2E2;
+    --bg-color: #F6F6F6;
+    --content-bg-color: #FFFFFF;
+
+    --shadow: 0 15px 24px 5px rgba(0,0,0,0.05);
+    --proximity-shadow: 0 15px 24px 5px rgba(0,0,0,0.1);
+    
+    --sans-serif: system, -apple-system, ".SFNSText-Regular", "San Francisco", "SF UI Display", BlinkMacSystemFont, "Helvetica Neue", "Roboto", "Droid Sans", "Fira Sans", "Cantarell", "Oxygen", "Ubuntu", "Segoe UI", "Lucida Grande", sans-serif;
+    --serif: "Iowan Old Style", IowanOldStyle-Roman, "Palatino Linotype", "Book Antiqua", Palatino, "Georgia", serif;
+    --monospace: "SF mono", "Roboto Mono", "Ubuntu Mono", Courier, "Lucida Console", Monaco, monospace;
+}
+html.dark:root{
+    --link-color: #FFFFFF;
+    --highlight-color: #0076FF;
+    --text-color: #FFFFFF;
+    --title-color: #FFFFFF;
+    --meta-color: #666666;
+    --border-color: #333333;
+    --bg-color: #000000;
+    --content-bg-color: #000000;
+}
+
+/* RESET */
+
+html, body, article, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, input, header, nav, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+ol,
+ul{ list-style: none }
+
+q,
+blockquote{ quotes: none }
+
+:focus{ outline: 0 }
+
+del{ text-decoration: line-through }
+
+textarea{ resize: none !important }
+
+input,textarea{ -webkit-appearance: none }
+
+a,ins{ text-decoration:none }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}

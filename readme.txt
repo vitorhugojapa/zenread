@@ -12,9 +12,9 @@ I would like to share a Haiku about Zen Read with you:
 A strong mind reads it focused
 Knowledge as it is”
 
-I hope that you enjoy using it as I ejoyed designing it.
+I hope that you enjoy using it as I enjoyed designing it.
 
-Contact me and give some feedback or share a Haiku about it with www.twitter.com/vitorhugojapa 👍
+Contact me and give some feedback or share a Haiku about it with www.twitter.com/vitorheinzen 👍
 
 ———
 
@@ -22,7 +22,7 @@ Image credits
 – Lotus Flower by Ruben Ortega https://unsplash.com/photos/f2kQaPm7muc
 – Balance by Bekir Dönmez https://unsplash.com/photos/eofm5R5f9Kw
 
-Zen Read was designed and coded by Vitor Hugo (www.vitorhugojapa.com)
+Zen Read was designed and coded by Vitor Hugo (www.vitorheinzen.com)
 
 ———
 
